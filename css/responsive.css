@@ -7,9 +7,9 @@
   .back_shape {
     top: -87vh;
   }
-  .shape_1 {
+  /* .shape_1 {
     top: -19vh;
-  }
+  } */
   /* 컨텐츠 영역 */
   .container {
     padding: 0 40px;
@@ -58,13 +58,16 @@
   .back_shape {
     top: -85vh;
   }
-  .back_shape > div:not(.shape_1, .shape_18) {
-    width: 27vw;
+  .back_shape > div:not(.shape_1, .shape_15, .shape_18) {
+    width: 20vw;
+  }
+  .shape_15 {
+    width: 50px;
   }
   .shape_1 {
-    top: -7vh;
+    top: -20vh;
     left: 24vw;
-  }
+  } /* 
   .shape_2 {
     top: -12vh;
     right: 0vw;
@@ -92,10 +95,9 @@
   }
   .shape_12 {
     left: -12vw;
-  }
+  } */
   .back_shape > div.shape_13,
   .back_shape > div.shape_14,
-  .back_shape > div.shape_15,
   .back_shape > div.shape_16,
   .back_shape > div.shape_17 {
     display: none;
@@ -210,16 +212,7 @@
   .back_shape {
     top: -85vh;
   }
-  .back_shape
-    > div:not(
-      .shape_1,
-      .shape_13,
-      .shape_14,
-      .shape_15,
-      .shape_16,
-      .shape_17,
-      .shape_18
-    ) {
+  .back_shape > div:not(.shape_1, .shape_15, .shape_18) {
     display: none;
   }
   .shape_1 {
@@ -227,6 +220,18 @@
     top: -10vh;
     left: 5vw;
   }
+  .shape_5 {
+    top: -1vh;
+    left: 20vw;
+  }
+  .shape_8 {
+    top: 12vh;
+    right: -1vw;
+  }
+  .shape_12 {
+    top: 46vh;
+    left: 0vw;
+  } /* 
   .shape_13 {
     left: 90vw;
   }
@@ -248,7 +253,7 @@
     width: 50%;
     left: 28%;
     top: 15%;
-  }
+  } */
   /* 컨텐츠 영역 */
   .container {
     padding: 0 40px;
@@ -388,23 +393,14 @@
   .back_shape {
     top: -85vh;
   }
-  .back_shape
-    > div:not(
-      .shape_1,
-      .shape_13,
-      .shape_14,
-      .shape_15,
-      .shape_16,
-      .shape_17,
-      .shape_18
-    ) {
+  .back_shape > div:not(.shape_1, .shape_15, .shape_17, .shape_18) {
     display: none;
   }
   .shape_1 {
     width: 200vw;
     top: -10vh;
     left: -35vw;
-  }
+  } /* 
   .shape_13 {
     top: 47vh;
     left: 90vw;
@@ -427,7 +423,7 @@
     width: 90%;
     left: 6%;
     top: 15%;
-  }
+  } */
   /* 컨텐츠 영역 */
   .container {
     padding: 0 40px;
@@ -647,7 +643,7 @@
     width: 200vw;
     top: -10vh;
     left: -35vw;
-  }
+  } /*
   .shape_13 {
     top: 47vh;
     left: 90vw;
@@ -670,7 +666,7 @@
     width: 90%;
     left: 6%;
     top: 15%;
-  }
+  } */
   /* 컨텐츠 영역 */
   .container {
     padding: 0 40px;
