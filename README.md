@@ -7,4 +7,4 @@
 
 WOO는 정확히 말하자면 클론코딩이라기보다는 학원 수업 진도 중에 선생님과 함께 작업한 프로젝트이다. 이 프로젝트를 통해서 **vw**와 **vh**를 통한 **반응형 디자인**, 다양한 **호버효과**와  **무한 애니메이션**에 대한 개념을 더 정확히 할 수 있었고 **파비콘**을 생성하는 법을 익혔다.
 
-![Untitled-1-01](https://github.com/user-attachments/assets/0536a8cf-f55f-45d2-b684-f96724c6a5ca)
+![Untitled-1-01](https://github.com/user-attachments/assets/ff37427f-d57b-47d2-b2ec-481af93c22b9)
