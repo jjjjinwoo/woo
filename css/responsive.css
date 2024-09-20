@@ -212,9 +212,9 @@
   .back_shape {
     top: -85vh;
   }
-  .back_shape > div:not(.shape_1, .shape_15, .shape_18) {
+  /* .back_shape > div:not(.shape_1, .shape_15, .shape_18) {
     display: none;
-  }
+  } */
   .shape_1 {
     width: 100vw;
     top: -10vh;
@@ -223,6 +223,10 @@
   .shape_5 {
     top: -1vh;
     left: 20vw;
+  }
+  .shape_7 {
+    top: 22vh;
+    left: -5vw;
   }
   .shape_8 {
     top: 12vh;
@@ -393,7 +397,8 @@
   .back_shape {
     top: -85vh;
   }
-  .back_shape > div:not(.shape_1, .shape_15, .shape_17, .shape_18) {
+  .back_shape
+    > div:not(.shape_1, .shape_13, .shape_14, .shape_15, .shape_17, .shape_18) {
     display: none;
   }
   .shape_1 {
